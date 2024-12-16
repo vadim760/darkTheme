@@ -78,10 +78,11 @@ a {
 .yellow__bg {
   background-color: #FBFA61;
   padding-top: 7.4375rem;
+  padding-bottom: 7.5rem;
 }
 
 .free__live11 {
-  font-size: 2.1875rem;
+  font-size: 2.5rem;
   color: #0000FF;
 }
 
@@ -89,4 +90,61 @@ a {
   color: #000;
   font-size: 0.875rem;
   margin-top: 0.875rem;
+}
+
+.features__live11__container {
+  margin-top: 7.0625rem;
+}
+.features__live11__container .features__live11 {
+  font-size: 2.5rem;
+}
+.features__live11__container .live11__cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 4px;
+  max-width: 90rem;
+  margin-top: 1.25rem;
+}
+.features__live11__container .live11__cards .cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.features__live11__container .live11__cards .cards .cards__text {
+  position: absolute;
+  font-size: 1.625rem;
+  text-align: center;
+  color: white;
+}
+
+.perfect__take {
+  margin-top: 8.9375rem;
+}
+.perfect__take .take__tittle {
+  display: flex;
+  justify-content: center;
+}
+.perfect__take .take__tittle p {
+  font-size: 6.875rem;
+  color: #000;
+}
+.perfect__take .take__image {
+  display: flex;
+  justify-content: center;
+  margin-top: 6.25rem;
+}
+.perfect__take .take__bottom__text {
+  display: flex;
+  justify-content: center;
+  gap: 7.5rem;
+}
+.perfect__take .take__bottom__text .bottom__tittle {
+  font-size: 1.6875rem;
+}
+.perfect__take .take__bottom__text .take__description {
+  max-width: 33.4375rem;
+  height: 100%;
+  margin-top: 1.0625rem;
+  font-size: 1.25rem;
 }/*# sourceMappingURL=style.css.map */

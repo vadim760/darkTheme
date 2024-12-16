@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-$fzNormal: 1.25rem;
-$fzTittle: 6.875rem;
-$fzBlueText: 1.6875rem;
+$fz20px: 1.25rem;
+$fz110px: 6.875rem;
+$fz27px: 1.6875rem;
+$fz40px: 2.5rem;
 $black: #000;
 $yellow: #FBFA61;
 $turquoise: #C4FEF9;
@@ -39,7 +40,7 @@ a {
     ul {
        
         
-        font-size: $fzNormal;
+        font-size: $fz20px;
         margin-top: 1.25rem;
         display: flex;
         gap: 1.875rem;
@@ -69,7 +70,7 @@ a {
     
     .tittle {
         color: $black;
-        font-size: $fzTittle;
+        font-size: $fz110px;
         
     }
     .top__video {
@@ -79,7 +80,7 @@ a {
         p {
             margin-left: 1.25rem;
            
-            font-size: $fzBlueText;
+            font-size: $fz27px;
             color: $blue;
         }
     }
@@ -92,14 +93,74 @@ a {
 .yellow__bg {
     background-color: $yellow;
     padding-top: 7.4375rem;
+    padding-bottom: 7.5rem;
 }
 .free__live11 {
-   
-    font-size: 2.1875rem;
+    
+    font-size: $fz40px;
     color: $blue;
 }
 .free__live11__text {
     color: $black;
     font-size: .875rem;
     margin-top: .875rem;
+}
+.features__live11__container {
+    margin-top: 7.0625rem;
+    .features__live11 {
+        font-size: $fz40px;
+    }
+    .live11__cards {
+        display: flex;
+        
+        flex-wrap: wrap;
+        gap: 4px 4px;
+        max-width: 90rem;    
+        margin-top: 1.25rem;
+        .cards {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            .cards__text {
+                position: absolute;
+                font-size: 1.625rem;
+                text-align: center;
+                color: white;
+            }
+
+        }
+
+    }
+
+}
+.perfect__take {
+    margin-top: 8.9375rem;
+    .take__tittle {
+        display: flex;
+        justify-content: center;
+        p {
+            font-size: $fz110px;
+            color: $black;
+        }
+    }
+    .take__image {
+        display: flex;
+        justify-content: center;
+        margin-top: 6.25rem;
+    }
+    .take__bottom__text {
+        display: flex;
+        justify-content: center;
+        gap: 7.5rem;
+            .bottom__tittle {
+                font-size: $fz27px;
+            }
+            .take__description {
+                max-width: 33.4375rem;
+                height: 100%;
+                margin-top: 1.0625rem;
+                font-size: $fz20px;
+            }
+    }
 }
