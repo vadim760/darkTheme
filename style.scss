@@ -2,11 +2,15 @@
 
 $fzNormal: 1.25rem;
 $fzTittle: 6.875rem;
+$fzBlueText: 1.6875rem;
 $black: #000;
 $yellow: #FBFA61;
 $turquoise: #C4FEF9;
 $blue: #0000FF;
 $fontFamily: "Roboto", sans-serif;
+body {
+   font-family: $fontFamily;
+}
 * {
     padding: 0;
     margin: 0;
@@ -33,7 +37,7 @@ a {
 
 
     ul {
-        font-family: $fontFamily;
+       
         
         font-size: $fzNormal;
         margin-top: 1.25rem;
@@ -57,5 +61,45 @@ a {
             }
     }
 }
-
+.top__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 9.375rem;
+    
+    .tittle {
+        color: $black;
+        font-size: $fzTittle;
         
+    }
+    .top__video {
+        display: flex;
+        align-items: center;
+
+        p {
+            margin-left: 1.25rem;
+           
+            font-size: $fzBlueText;
+            color: $blue;
+        }
+    }
+}
+.top__back__ground {
+    margin-top: 7.5rem;
+    width: 100%;
+
+}
+.yellow__bg {
+    background-color: $yellow;
+    padding-top: 7.4375rem;
+}
+.free__live11 {
+   
+    font-size: 2.1875rem;
+    color: $blue;
+}
+.free__live11__text {
+    color: $black;
+    font-size: .875rem;
+    margin-top: .875rem;
+}
