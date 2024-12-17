@@ -92,14 +92,24 @@ a {
   margin-top: 0.875rem;
 }
 
+.features_top__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .features__live11__container {
   margin-top: 7.0625rem;
 }
 .features__live11__container .features__live11 {
+  display: flex;
+  justify-content: center;
   font-size: 2.5rem;
 }
 .features__live11__container .live11__cards {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 4px 4px;
   max-width: 90rem;
@@ -118,33 +128,275 @@ a {
   color: white;
 }
 
-.perfect__take {
+.advantages {
   margin-top: 8.9375rem;
 }
-.perfect__take .take__tittle {
+.advantages .advantages__tittle {
   display: flex;
   justify-content: center;
 }
-.perfect__take .take__tittle p {
+.advantages .advantages__tittle p {
   font-size: 6.875rem;
   color: #000;
 }
-.perfect__take .take__image {
+.advantages .advantages__image {
   display: flex;
   justify-content: center;
   margin-top: 6.25rem;
 }
-.perfect__take .take__bottom__text {
+.advantages .advantages__bottom__items {
   display: flex;
   justify-content: center;
   gap: 7.5rem;
+  margin-top: 3.125rem;
 }
-.perfect__take .take__bottom__text .bottom__tittle {
+.advantages .advantages__bottom__items .bottom__tittle {
   font-size: 1.6875rem;
 }
-.perfect__take .take__bottom__text .take__description {
+.advantages .advantages__bottom__items .advantages__description {
   max-width: 33.4375rem;
   height: 100%;
   margin-top: 1.0625rem;
   font-size: 1.25rem;
+}
+
+.more {
+  display: flex;
+  justify-content: center;
+  margin-top: 11.25rem;
+  padding-bottom: 9rem;
+}
+.more .dropdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 68.75rem;
+  height: 3.9375rem;
+  border: 0.3125rem solid #0000FF;
+  font-size: 1.6875rem;
+  color: #0000FF;
+}
+.more .dropdown::before {
+  content: "+";
+  margin-right: 0.6875rem;
+}
+
+.turquoise__bg {
+  background-color: #C4FEF9;
+  padding-top: 9rem;
+}
+
+.new__devices {
+  display: flex;
+  flex-direction: column;
+}
+.new__devices .devices__tittle {
+  color: #000;
+  font-size: 6.875rem;
+}
+.new__devices .devices__list__tittle {
+  color: #000;
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin-top: 7.5rem;
+}
+.new__devices .devices__text {
+  margin-top: 0.8125rem;
+  max-width: 36.5rem;
+  font-size: 1.25rem;
+}
+.new__devices .hint {
+  margin-top: 1.9375rem;
+}
+.new__devices .hint__last {
+  margin-top: 1.9375rem;
+}
+
+.inspired h2 {
+  margin-top: 7.0625rem;
+  font-size: 2.5rem;
+  color: #000;
+  font-weight: normal;
+}
+.inspired p {
+  margin-top: 0.8125rem;
+  font-size: 1.25rem;
+}
+.inspired ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+}
+.inspired ul .instrumental__list {
+  margin-top: 2rem;
+}
+.inspired ul .instrumental__list .instrumental__imgure {
+  max-width: 31.125rem;
+  max-height: 11.75rem;
+}
+.inspired ul .instrumental__list p {
+  font-size: 1rem;
+  color: #000;
+  max-width: 28.125rem;
+  height: auto;
+}
+.inspired .new__live11 {
+  display: flex;
+  align-items: center;
+  margin-top: 7.5rem;
+  padding-bottom: 11.25rem;
+}
+.inspired .new__live11 p {
+  color: #0000FF;
+  font-size: 1.6875rem;
+  margin-left: 2.5rem;
+}
+
+.stage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.stage h2 {
+  color: #000;
+  margin-top: 9rem;
+  font-size: 6.875rem;
+  font-weight: normal;
+}
+.stage .stage__container {
+  display: flex;
+  align-items: center;
+  margin-top: 5.8125rem;
+}
+.stage .stage__container .stage__right__text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.0625rem;
+  margin-left: 7.5rem;
+}
+.stage .stage__container .stage__right__text .stage__tittle {
+  color: #000;
+  font-size: 1.6875rem;
+}
+.stage .stage__container .stage__right__text .stage__text {
+  font-size: 1.25rem;
+  color: #000;
+  max-width: 21.5625rem;
+}
+.stage .stage__container .stage__left__text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.0625rem;
+  margin-right: 7.5rem;
+}
+.stage .stage__container .stage__left__text .stage__tittle {
+  color: #000;
+  font-size: 1.6875rem;
+}
+.stage .stage__container .stage__left__text .stage__text {
+  font-size: 1.25rem;
+  color: #000;
+  max-width: 21.5625rem;
+  margin-bottom: 1.75rem;
+  margin-top: 1.375rem;
+}
+
+.stage__right__text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.0625rem;
+  margin-left: 7.5rem;
+}
+.stage__right__text .stage__tittle {
+  color: #000;
+  font-size: 1.6875rem;
+}
+.stage__right__text .stage__text {
+  font-size: 1.25rem;
+  color: #000;
+  max-width: 21.5625rem;
+}
+
+.stage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.stage h2 {
+  color: #000;
+  margin-top: 9rem;
+  font-size: 6.875rem;
+  font-weight: normal;
+}
+.stage .stage__container {
+  display: flex;
+  align-items: center;
+  margin-top: 5.8125rem;
+}
+.stage .stage__container .stage__right__text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.0625rem;
+  margin-left: 7.5rem;
+}
+.stage .stage__container .stage__right__text .stage__tittle {
+  color: #000;
+  font-size: 1.6875rem;
+}
+.stage .stage__container .stage__right__text .stage__text {
+  font-size: 1.25rem;
+  color: #000;
+  max-width: 21.5625rem;
+}
+.stage .stage__container .stage__left__text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.0625rem;
+  margin-right: 7.5rem;
+}
+.stage .stage__container .stage__left__text .stage__tittle {
+  color: #000;
+  font-size: 1.6875rem;
+}
+.stage .stage__container .stage__left__text .stage__text {
+  font-size: 1.25rem;
+  color: #000;
+  max-width: 21.5625rem;
+  margin-bottom: 1.75rem;
+  margin-top: 1.375rem;
+}
+
+.unpredictable {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.unpredictable h2 {
+  color: #000;
+  margin-top: 9rem;
+  font-size: 6.875rem;
+  font-weight: normal;
+}
+.unpredictable .unpredictable__container {
+  display: flex;
+  align-items: center;
+  margin-top: 5.8125rem;
+}
+.unpredictable .unpredictable__container .unpredictable__left__text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.0625rem;
+  margin-right: 7.5rem;
+}
+.unpredictable .unpredictable__container .unpredictable__left__text .unpredictable__tittle {
+  color: #000;
+  font-size: 1.6875rem;
+}
+.unpredictable .unpredictable__container .unpredictable__left__text .unpredictable__text {
+  font-size: 1.25rem;
+  color: #000;
+  max-width: 21.5625rem;
+  margin-bottom: 1.75rem;
+  margin-top: 1.375rem;
 }/*# sourceMappingURL=style.css.map */
